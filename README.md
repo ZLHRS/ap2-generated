@@ -9,7 +9,7 @@ To consume this repository in your main Go microservices project:
 
 1. Add the package to your project:
 ```bash
-go get github.com/myuser/ap2-generated@v1.0.0
+go get github.com/ZLHRS/ap2-generated@v1.0.0
 ```
 
 2. Import the packages in your Go code:
@@ -18,7 +18,7 @@ go get github.com/myuser/ap2-generated@v1.0.0
 ```go
 import (
     "context"
-    pb "github.com/myuser/ap2-generated/payment/v1"
+    pb "github.com/ZLHRS/ap2-generated/payment/v1"
 )
 
 type server struct {
@@ -34,7 +34,7 @@ func (s *server) ProcessPayment(ctx context.Context, req *pb.PaymentRequest) (*p
 ```go
 import (
     "context"
-    pb "github.com/myuser/ap2-generated/order/v1"
+    pb "github.com/ZLHRS/ap2-generated/order/v1"
 )
 
 // Use pb.OrderServiceClient to call order methods

@@ -1,4 +1,4 @@
-module github.com/myuser/ap2-generated
+module github.com/ZLHRS/ap2-generated
 
 go 1.21
 
